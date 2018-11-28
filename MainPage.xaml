@@ -1,0 +1,129 @@
+﻿<Page
+    x:Class="ülesanne_1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ülesanne_1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        
+        <Pivot Title="Ülesanne 1">
+            <PivotItem Header="Leht 1">
+                <Grid>
+
+                    <StackPanel>
+                        <ScrollViewer Grid.Row="1">
+                            <ListView Name="listview1">
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                                <ListViewItem Background="LightGray">item2</ListViewItem>
+                                <ListViewItem Background="WhiteSmoke">item2</ListViewItem>
+                            </ListView>
+                        </ScrollViewer>
+
+                    
+                  </StackPanel>
+                </Grid>
+                
+
+            </PivotItem>
+            <PivotItem Header="Leht 2">
+                <TextBlock Text="unread emails go here." />
+            </PivotItem>
+            <PivotItem Header="Leht 3">
+                <TextBlock Text="flagged emails go here." />
+            </PivotItem>
+            <PivotItem Header="Leht 4">
+                <TextBlock Text="all emails go here." />
+            </PivotItem>
+            <PivotItem Header="Leht 5">
+                <TextBlock Text="unread emails go here." />
+            </PivotItem>
+        </Pivot>
+
+
+        <!--
+        <StackPanel Grid.Row="0" Name="stackblock" Orientation="Horizontal">
+
+            <Button Name="leht1" Content="pivot" FontSize="15" Width="70" Click="Leht1_Click">
+
+            </Button>
+
+            <Button Name="leht2" RelativePanel.RightOf="leht1"  Content="pivot" FontSize="15" Width="70" Click="Leht2_Click">
+
+            </Button>
+
+            <Button Name="leht3" RelativePanel.RightOf="leht2" Content="pivot" FontSize="15" Width="70" Click="Leht3_Click">
+
+            </Button>
+
+            <Button Name="leht4" RelativePanel.RightOf="leht3" Content="pivot" FontSize="15" Width="70" Click="Leht4_Click">
+
+            </Button>
+
+            <Button Name="leht5" RelativePanel.RightOf="leht4" Content="pivot" FontSize="15" Width="70" Click="Leht5_Click">
+
+            </Button>
+
+        </StackPanel>
+        -->
+        <!--
+        <ScrollViewer  Grid.Column="0" Grid.Row="1">
+                    <ListBox>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="White" Width="550">item2</ListViewItem>
+                        <ListViewItem Background="LightGray" Width="550">item2</ListViewItem>
+                     <ListViewItem Background="White" Width="550">item2</ListViewItem>
+            </ListBox>
+                </ScrollViewer>
+        -->
+
+                <StackPanel Grid.Row="1">
+            <Frame Name="frame1"></Frame>
+        </StackPanel>
+
+    </Grid>
+</Page>
